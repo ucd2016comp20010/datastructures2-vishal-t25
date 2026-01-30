@@ -22,7 +22,8 @@ public class SinglyLinkedList<E> implements List<E> {
          * @param n reference to a node that should follow the new node
          */
         public Node(E e, Node<E> n) {
-            // TODO
+            element = e;
+            next = n;
         }
 
         // Accessor methods
@@ -33,7 +34,7 @@ public class SinglyLinkedList<E> implements List<E> {
          * @return the element stored at the node
          */
         public E getElement() {
-            return null;
+            return element;
         }
 
         /**
@@ -42,8 +43,7 @@ public class SinglyLinkedList<E> implements List<E> {
          * @return the following node
          */
         public Node<E> getNext() {
-            // TODO
-            return null;
+            return next;
         }
 
         // Modifier methods
@@ -54,7 +54,7 @@ public class SinglyLinkedList<E> implements List<E> {
          * @param n the node that should follow this one
          */
         public void setNext(Node<E> n) {
-            // TODO
+            next = n;
         }
     } //----------- end of nested Node class -----------
 
@@ -74,54 +74,109 @@ public class SinglyLinkedList<E> implements List<E> {
 
     //@Override
     public int size() {
-        // TODO
-        return 0;
+        return size;
+
     }
 
     //@Override
     public boolean isEmpty() {
-        // TODO
-        return false;
+        return size == 0;
     }
 
     @Override
     public E get(int position) {
-        // TODO
-        return null;
+        if (position < 0 || position >= size) return null;
+        Node<E> curr = head;
+        for (int i = 0; i < position; i++) {
+            curr = curr.getNext();
+        }
+        return curr.getElement();
     }
 
     @Override
     public void add(int position, E e) {
-        // TODO
+        if (position < 0 || position > size) throw new IndexOutOfBoundsException("position out of bounds");
+        if (position == 0) {
+            addFirst(e);
+            return;
+        }
+        Node<E> prev = head;
+        for (int i = 0; i < position - 1; i++) {
+            prev = prev.getNext();
+        }
+        Node<E> newNode = new Node<>(e, prev.getNext());
+        prev.setNext(newNode);
+        size++;
     }
 
 
     @Override
     public void addFirst(E e) {
-        // TODO
+        Node<E> newNode = new Node<>(e, head);
+        head = newNode;
+        size++;
+
     }
 
     @Override
     public void addLast(E e) {
-        // TODO
+        Node<E> newNode = new Node<>(e, null);
+
+        if (head == null) {
+            head = newNode;
+        } else {
+            Node<E> curr = head;
+            while (curr.getNext() != null) {
+                curr = curr.getNext();
+            }
+            curr.setNext(newNode);
+        }
+        size++;
+
     }
 
     @Override
     public E remove(int position) {
-        // TODO
-        return null;
+        if (position < 0 || position >= size) return null;
+        if (position == 0) return removeFirst();
+        Node<E> prev = head;
+        for (int i = 0; i < position - 1; i++) {
+            prev = prev.getNext();
+        }
+        Node<E> removed = prev.getNext();
+        prev.setNext(removed.getNext());
+        size--;
+        return removed.getElement();
+
     }
 
     @Override
     public E removeFirst() {
-        // TODO
-        return null;
+        if (head == null) return null;
+        E val = head.getElement();
+        head = head.getNext();
+        size--;
+        return val;
     }
 
     @Override
     public E removeLast() {
-        // TODO
-        return null;
+        if (head == null) return null;
+        if (head.getNext() == null) {
+            E val = head.getElement();
+            head = null;
+            size--;
+            return val;
+        }
+        Node<E> curr = head.getNext();
+        Node<E> prev = head;
+        while (curr.getNext() != null) {
+            prev = curr;
+            curr = curr.getNext();
+        }
+        prev.setNext(null);
+        size--;
+        return curr.getElement();
     }
 
     //@Override
