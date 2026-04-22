@@ -1,8 +1,11 @@
 package project20280.hashtable;
 
 import project20280.interfaces.AbstractMap;
+import project20280.interfaces.Entry;
 
+import java.lang.Math;
 import java.util.Random;
+import static java.lang.Math.abs;
 
 /**
  * An abstract base class supporting Map implementations that use hash
@@ -99,7 +102,14 @@ public abstract class AbstractHashMap<K, V> extends AbstractMap<K, V> {
     @Override
     public V put(K key, V value) {
         // TODO
-        return null;
+        V oldValue = bucketPut(hashValue(key), key, value);
+        if (oldValue == null) {
+            n++;
+        }
+        if (n > capacity / 2) {
+            resize(2 * capacity - 1);
+        }
+        return oldValue;
     }
 
     // private utilities
@@ -108,15 +118,28 @@ public abstract class AbstractHashMap<K, V> extends AbstractMap<K, V> {
      * Hash function applying MAD method to default hash code.
      */
     private int hashValue(K key) {
-        // TODO
-        return 0;
+        int hash = (key == null) ? 0 : key.hashCode(); // if key is null, hash is 0, else put through function
+        return (int) ((Math.abs(hash * scale + shift) % prime) % capacity);
     }
 
     /**
      * Updates the size of the hash table and rehashes all entries.
      */
     private void resize(int newCap) {
-        // TODO
+        java.util.ArrayList<Entry<K, V>> buffer = new java.util.ArrayList<>(); // temporary buffer to hold the entries while we rehash
+        for (Entry<K, V> entry : entrySet()) {
+            buffer.add(entry);
+        }
+
+        capacity = newCap;
+        // if we didnt make a buffer the values would be lost when we call createTable()
+        // since it will reset the table and remove all entries
+        createTable();
+        n = 0;
+
+        for (Entry<K, V> entry : buffer) {
+            put(entry.getKey(), entry.getValue());
+        }
     }
 
     // protected abstract methods to be implemented by subclasses

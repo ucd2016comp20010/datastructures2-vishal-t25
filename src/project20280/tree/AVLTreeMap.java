@@ -5,6 +5,8 @@ import project20280.interfaces.Position;
 
 import java.util.Comparator;
 
+import static java.lang.Math.max;
+
 /**
  * An implementation of a sorted map using an AVL tree.
  */
@@ -32,7 +34,8 @@ public class AVLTreeMap<K, V> extends TreeMap<K, V> {
      */
     protected int height(Position<Entry<K, V>> p) {
         // TODO
-        return 0;
+        if (p == null || isExternal(p)) return 0;
+        return tree.getAux(p);
     }
 
     /**
@@ -40,6 +43,8 @@ public class AVLTreeMap<K, V> extends TreeMap<K, V> {
      */
     protected void recomputeHeight(Position<Entry<K, V>> p) {
         // TODO
+        int h = 1 + Math.max(height(left(p)), height(right(p)));
+        tree.setAux(p, h);
     }
 
     /**
@@ -47,7 +52,7 @@ public class AVLTreeMap<K, V> extends TreeMap<K, V> {
      */
     protected boolean isBalanced(Position<Entry<K, V>> p) {
         // TODO
-        return false;
+        return Math.abs(height(left(p)) - height(right(p))) <= 1;
     }
 
     /**
@@ -55,7 +60,13 @@ public class AVLTreeMap<K, V> extends TreeMap<K, V> {
      */
     protected Position<Entry<K, V>> tallerChild(Position<Entry<K, V>> p) {
         // TODO
-        return null;
+        int lh = height(left(p));
+        int rh = height(right(p));
+        if (lh > rh) return left(p);
+        if (rh > lh) return right(p);
+        // tie-break: same side as p relative to its parent
+        if (isRoot(p) || p == left(parent(p))) return left(p);
+        return right(p);
     }
 
     /**
@@ -65,6 +76,19 @@ public class AVLTreeMap<K, V> extends TreeMap<K, V> {
      */
     protected void rebalance(Position<Entry<K, V>> p) {
         // TODO
+        int oldHeight, newHeight;
+        do {
+            oldHeight = height(p);
+            if (!isBalanced(p)) {
+                // restructure around p's taller grandchild
+                p = restructure(tallerChild(tallerChild(p)));
+                recomputeHeight(left(p));
+                recomputeHeight(right(p));
+            }
+            recomputeHeight(p);
+            newHeight = height(p);
+            p = parent(p);
+        } while (p != null && oldHeight != newHeight);
     }
 
     /**
@@ -91,7 +115,7 @@ public class AVLTreeMap<K, V> extends TreeMap<K, V> {
             if (isInternal(p)) {
                 if (p.getElement() == null)
                     System.out.println("VIOLATION: Internal node has null entry");
-                else if (height(p) != 1 + Math.max(height(left(p)), height(right(p)))) {
+                else if (height(p) != 1 + max(height(left(p)), height(right(p)))) {
                     System.out.println("VIOLATION: AVL unbalanced node with key " + p.getElement().getKey());
                     dump();
                     return false;
