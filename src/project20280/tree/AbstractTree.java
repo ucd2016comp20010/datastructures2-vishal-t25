@@ -3,9 +3,7 @@ package project20280.tree;
 import project20280.interfaces.Position;
 import project20280.interfaces.Tree;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
 
 
 /**
@@ -192,6 +190,10 @@ public abstract class AbstractTree<E> implements Tree<E> {
      */
     private void preorderSubtree(Position<E> p, List<Position<E>> snapshot) {
         // TODO
+        snapshot.add(p);
+        for (Position<E> child : children(p)) {
+            preorderSubtree(child, snapshot);
+        }
     }
 
     /**
@@ -201,7 +203,10 @@ public abstract class AbstractTree<E> implements Tree<E> {
      */
     public Iterable<Position<E>> preorder() {
         // TODO
-        return null;
+        List<Position<E>> snapshot = new ArrayList<>();
+        if (!isEmpty())
+            preorderSubtree(root(), snapshot);   // fill the snapshot recursively
+        return snapshot;
     }
 
     /**
@@ -213,6 +218,10 @@ public abstract class AbstractTree<E> implements Tree<E> {
      */
     private void postorderSubtree(Position<E> p, List<Position<E>> snapshot) {
         // TODO
+        for (Position<E> child : children(p)) {
+            postorderSubtree(child, snapshot);
+        }
+        snapshot.add(p);
     }
 
     /**
@@ -234,6 +243,18 @@ public abstract class AbstractTree<E> implements Tree<E> {
      */
     public Iterable<Position<E>> breadthfirst() {
         // TODO
-        return null;
+        List<Position<E>> snapshot = new ArrayList<>();
+        if (!isEmpty()) {
+            Queue<Position<E>> queue = new LinkedList<>();
+            queue.add(root());
+            while (!queue.isEmpty()) {
+                Position<E> p = queue.poll();
+                snapshot.add(p);
+                for (Position<E> child : children(p)) {
+                    queue.add(child);
+                }
+            }
+        }
+        return snapshot;
     }
 }

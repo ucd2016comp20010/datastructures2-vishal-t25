@@ -5,17 +5,152 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d8b5d4d-4960-4b9c-9895-00ee753bbeef" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/hashtable/AbstractHashMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/hashtable/AbstractHashMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/hashtable/ChainHashMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/hashtable/ChainHashMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/hashtable/ProbeHashMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/hashtable/ProbeHashMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/hashtable/UnsortedTableMap$EntryIterable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/hashtable/UnsortedTableMap$EntryIterable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/hashtable/UnsortedTableMap$EntryIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/hashtable/UnsortedTableMap$EntryIterator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/hashtable/UnsortedTableMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/hashtable/UnsortedTableMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/project20280/hashtable/AbstractHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project20280/hashtable/AbstractHashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/project20280/hashtable/ChainHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project20280/hashtable/ChainHashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/project20280/hashtable/ProbeHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project20280/hashtable/ProbeHashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/project20280/hashtable/UnsortedTableMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project20280/hashtable/UnsortedTableMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/exercises/Wk1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/hashtable/AbstractHashMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/hashtable/ChainHashMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/hashtable/ChainHashMapTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/hashtable/LocalProbeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/hashtable/ProbeHashMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/hashtable/ProbeHashMapTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/hashtable/UnsortedTableMap$EntryIterable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/hashtable/UnsortedTableMap$EntryIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/hashtable/UnsortedTableMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/interfaces/AbstractMap$KeyIterable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/interfaces/AbstractMap$KeyIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/interfaces/AbstractMap$MapEntry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/interfaces/AbstractMap$ValueIterable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/interfaces/AbstractMap$ValueIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/interfaces/AbstractMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/interfaces/BinaryTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/interfaces/Deque.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/interfaces/Entry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/interfaces/List.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/interfaces/Map.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/interfaces/Position.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/interfaces/PriorityQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/interfaces/Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/interfaces/SortedMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/interfaces/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/interfaces/Tree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/list/CircularlyLinkedList$CircularlyLinkedListIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/list/CircularlyLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/list/CircularlyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/list/CircularlyLinkedListTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/list/DoublyLinkedList$DoublyLinkedListIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/list/DoublyLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/list/DoublyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/list/DoublyLinkedListTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/list/SinglyLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/list/SinglyLinkedList$SinglyLinkedListIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/list/SinglyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/list/SinglyLinkedListTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/priorityqueue/AbstractPriorityQueue$PQEntry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/priorityqueue/AbstractPriorityQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/priorityqueue/DefaultComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/priorityqueue/HeapPriorityQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/priorityqueue/HeapPriorityQueueTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/stacksqueues/ArrayQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/stacksqueues/ArrayQueueTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/stacksqueues/ArrayStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/stacksqueues/ArrayStackTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/stacksqueues/BracketChecker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/stacksqueues/LinkedCircularQueue$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/stacksqueues/LinkedCircularQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/stacksqueues/LinkedDeque.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/stacksqueues/LinkedDequeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/stacksqueues/LinkedQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/stacksqueues/LinkedQueueTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/stacksqueues/LinkedStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/stacksqueues/LinkedStackTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/tree/AVLTreeMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/tree/AVLTreeMapTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/tree/AbstractBinaryTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/tree/AbstractSortedMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/tree/AbstractTree$ElementIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/tree/AbstractTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/tree/BinaryTreePrinter$TreeLine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/tree/BinaryTreePrinter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/tree/LinkedBinaryTree$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/tree/LinkedBinaryTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/tree/LinkedBinaryTreeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/tree/SplayTreeMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/tree/SplayTreeMapTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/tree/TreeMap$BalanceableBinaryTree$BSTNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/tree/TreeMap$BalanceableBinaryTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/tree/TreeMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/tree/TreeMapTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/week6/Fibonacci.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/week6/Tribonacci.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures2-vishal-t25/project20280/week6/f91.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/project20280/exercises/Wk1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/project20280/hashtable/AbstractHashMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/project20280/hashtable/ChainHashMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/project20280/hashtable/LocalProbeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/project20280/hashtable/ProbeHashMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/project20280/hashtable/UnsortedTableMap$EntryIterable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/project20280/hashtable/UnsortedTableMap$EntryIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/project20280/hashtable/UnsortedTableMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/project20280/interfaces/AbstractMap$KeyIterable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/project20280/interfaces/AbstractMap$KeyIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/project20280/interfaces/AbstractMap$MapEntry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/project20280/interfaces/AbstractMap$ValueIterable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/project20280/interfaces/AbstractMap$ValueIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/project20280/interfaces/AbstractMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/project20280/interfaces/BinaryTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/project20280/interfaces/Deque.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/project20280/interfaces/Entry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/project20280/interfaces/List.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/project20280/interfaces/Map.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/project20280/interfaces/Position.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/project20280/interfaces/PriorityQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/project20280/interfaces/Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/project20280/interfaces/SortedMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/project20280/interfaces/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/project20280/interfaces/Tree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/project20280/list/CircularlyLinkedList$CircularlyLinkedListIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/project20280/list/CircularlyLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/project20280/list/CircularlyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/project20280/list/DoublyLinkedList$DoublyLinkedListIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/project20280/list/DoublyLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/project20280/list/DoublyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/project20280/list/SinglyLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/project20280/list/SinglyLinkedList$SinglyLinkedListIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/project20280/list/SinglyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/project20280/priorityqueue/AbstractPriorityQueue$PQEntry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/project20280/priorityqueue/AbstractPriorityQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/project20280/priorityqueue/DefaultComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/project20280/priorityqueue/HeapPriorityQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/project20280/stacksqueues/ArrayQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/project20280/stacksqueues/ArrayStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/project20280/stacksqueues/BracketChecker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/project20280/stacksqueues/LinkedCircularQueue$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/project20280/stacksqueues/LinkedCircularQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/project20280/stacksqueues/LinkedDeque.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/project20280/stacksqueues/LinkedQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/project20280/stacksqueues/LinkedStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/project20280/tree/AVLTreeMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/project20280/tree/AbstractBinaryTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/project20280/tree/AbstractSortedMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/project20280/tree/AbstractTree$ElementIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/project20280/tree/AbstractTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/project20280/tree/BinaryTreePrinter$TreeLine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/project20280/tree/BinaryTreePrinter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/project20280/tree/LinkedBinaryTree$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/project20280/tree/LinkedBinaryTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/project20280/tree/SplayTreeMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/project20280/tree/TreeMap$BalanceableBinaryTree$BSTNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/project20280/tree/TreeMap$BalanceableBinaryTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/project20280/tree/TreeMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/project20280/week6/Fibonacci.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/project20280/week6/Tribonacci.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/project20280/week6/f91.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/project20280/tree/AVLTreeMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project20280/tree/AVLTreeMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project20280/tree/AVLTreeMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project20280/tree/AVLTreeMapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project20280/tree/AbstractTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project20280/tree/AbstractTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project20280/tree/LinkedBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project20280/tree/LinkedBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project20280/tree/TreeMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project20280/tree/TreeMap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +166,8 @@
     <selectedModels>
       <entry key="inline" value="GPT-5 mini" />
       <entry key="edit-panel" value="GPT-5 mini" />
-      <entry key="chat-panel" value="GPT-5 mini" />
-      <entry key="agent-panel" value="GPT-5 mini" />
+      <entry key="chat-panel" value="Auto" />
+      <entry key="agent-panel" value="Auto" />
     </selectedModels>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -59,6 +194,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.AVLTreeMap.executor&quot;: &quot;Run&quot;,
     &quot;Application.ArrayStack.executor&quot;: &quot;Run&quot;,
     &quot;Application.BracketChecker.executor&quot;: &quot;Run&quot;,
     &quot;Application.ChainHashMap.executor&quot;: &quot;Run&quot;,
@@ -72,6 +208,7 @@
     &quot;Application.Tribonacci.executor&quot;: &quot;Run&quot;,
     &quot;Application.f91.executor&quot;: &quot;Run&quot;,
     &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.AVLTreeMapTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.ArrayQueueTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.ArrayQueueTest.testDequeue.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.ArrayQueueTest.testFirst.executor&quot;: &quot;Run&quot;,
@@ -99,6 +236,7 @@
     &quot;JUnit.ProbeHashMapTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.ProbeHashMapTest.testSize.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.SinglyLinkedListTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TreeMapTest.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
     &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
@@ -125,13 +263,13 @@
       <recent name="project20280.list" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ProbeHashMapTest">
-    <configuration name="LocalProbeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="project20280.hashtable.LocalProbeTest" />
+  <component name="RunManager" selected="JUnit.AVLTreeMapTest">
+    <configuration name="AVLTreeMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="project20280.tree.AVLTreeMap" />
       <module name="datastructures2-vishal-t25" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="project20280.hashtable.*" />
+          <option name="PATTERN" value="project20280.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,33 +286,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChainHashMapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AVLTreeMapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="datastructures2-vishal-t25" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="project20280.hashtable.*" />
+          <option name="PATTERN" value="project20280.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="project20280.hashtable" />
-      <option name="MAIN_CLASS_NAME" value="project20280.hashtable.ChainHashMapTest" />
+      <option name="PACKAGE_NAME" value="project20280.tree" />
+      <option name="MAIN_CLASS_NAME" value="project20280.tree.AVLTreeMapTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ChainHashMapTest.testRemove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="datastructures2-vishal-t25" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="project20280.hashtable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="project20280.hashtable" />
-      <option name="MAIN_CLASS_NAME" value="project20280.hashtable.ChainHashMapTest" />
-      <option name="METHOD_NAME" value="testRemove" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -210,13 +332,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TreeMapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="datastructures2-vishal-t25" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="project20280.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="project20280.tree" />
+      <option name="MAIN_CLASS_NAME" value="project20280.tree.TreeMapTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AVLTreeMapTest" />
+        <item itemvalue="JUnit.TreeMapTest" />
+        <item itemvalue="Application.AVLTreeMap" />
         <item itemvalue="JUnit.ProbeHashMapTest" />
         <item itemvalue="JUnit.ProbeHashMapTest.testSize" />
-        <item itemvalue="Application.LocalProbeTest" />
-        <item itemvalue="JUnit.ChainHashMapTest" />
-        <item itemvalue="JUnit.ChainHashMapTest.testRemove" />
       </list>
     </recent_temporary>
   </component>

@@ -3,6 +3,7 @@ package project20280.tree;
 import project20280.interfaces.Entry;
 import project20280.interfaces.Position;
 
+import java.util.ArrayList;
 import java.util.Comparator;
 
 import static java.lang.Math.max;
@@ -105,6 +106,16 @@ public class AVLTreeMap<K, V> extends TreeMap<K, V> {
     @Override
     protected void rebalanceDelete(Position<Entry<K, V>> p) {
         // TODO
+        rebalance(p);
+    }
+
+    @Override
+    public String toString() {
+        ArrayList<K> keys = new ArrayList<>(size());
+        for (Entry<K, V> e : entrySet()) {
+            keys.add(e.getKey());
+        }
+        return keys.toString();
     }
 
     /**

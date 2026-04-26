@@ -551,7 +551,7 @@ public class LinkedBinaryTree<E> extends AbstractBinaryTree<E> {
         public String toString() {
             StringBuilder sb = new StringBuilder();
             if (element == null) {
-                sb.append('\n');
+                sb.append("\n");
             } else {
                 sb.append(element);
             }
